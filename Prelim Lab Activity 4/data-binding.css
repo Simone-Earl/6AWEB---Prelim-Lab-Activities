@@ -1,0 +1,67 @@
+.highlighted {
+  background-color: lime;
+}
+
+/* ---------- General Text ---------- */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1b3d00; /* dark readable green */
+  margin: 8px 0;
+}
+
+/* ---------- Image Styling ---------- */
+img {
+  border: 3px solid #b6ff6c; /* lime border */
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 4px;
+  background: #f6ffe9; /* light lime bg */
+}
+
+/* ---------- Input ---------- */
+input[type="text"],
+input[placeholder] {
+  padding: 8px 12px;
+  border: 2px solid #b6ff6c;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #8bd93f;
+  box-shadow: 0 0 4px #8bd93f;
+}
+
+/* ---------- Buttons ---------- */
+button {
+  background: #b7ff44;
+  border: 2px solid #8bd93f;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #1b3d00;
+  font-weight: bold;
+  margin-right: 8px;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #8bd93f;
+  color: white;
+}
+
+/* ---------- Section Divider ---------- */
+hr {
+  border: 0;
+  height: 2px;
+  background: #b6ff6c;
+  margin: 25px 0;
+}
+
+/* ---------- Lime Text (for dynamic style binding) ---------- */
+.lime-text {
+  color: #7bd934;
+  font-weight: bold;
+}

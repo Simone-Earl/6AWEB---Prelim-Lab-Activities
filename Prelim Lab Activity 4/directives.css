@@ -1,0 +1,76 @@
+/* Page text */
+p, h2 {
+  color: #1b3d00; /* dark green for readability */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Horizontal rules */
+hr {
+  border: 0;
+  height: 2px;
+  background: #b6ff6c; /* lime */
+  margin: 25px 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  background: #f4ffe9; /* soft lime tint */
+  border: 2px solid #b6ff6c;
+  border-radius: 8px;
+}
+
+table td,
+table th {
+  padding: 12px 15px;
+  border-bottom: 1px solid #d8ffb0;
+}
+
+table th {
+  background: #b7ff66; /* strong lime */
+  color: #1b3d00;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background: #ecffe0; /* lighter lime striping */
+}
+
+/* List items */
+li {
+  color: #1b3d00;
+  padding: 5px 0;
+}
+
+/* Buttons */
+button {
+  background: #b7ff44;         /* lime */
+  border: 2px solid #8bd93f;   /* darker lime */
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #1b3d00;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #8bd93f;
+  color: white;
+}
+
+/* Input styling */
+input[type="text"] {
+  padding: 8px 12px;
+  border: 2px solid #b6ff6c;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #8bd93f;
+  box-shadow: 0 0 4px #8bd93f;
+}
